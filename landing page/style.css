@@ -1,0 +1,279 @@
+*{
+    padding: 0; margin: 0; 
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+header, body{
+    width: 100%;
+	height: 100vh;
+    background: linear-gradient(to right, #ffeaa7, #ccae62);
+}
+
+.top-nav{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 50px;
+	
+}
+
+.s-icon i{
+	padding: 5px;
+	border-radius: 5px;
+	font-size: 20px;
+    background-color: #00b894;
+	color: white;
+	margin: 0px 5px;
+}
+
+.s-icon i:hover{
+	background-color: #e17055;
+	color: black;
+	transition: 0.4s;
+}
+
+nav{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 70px;
+}
+
+.nav__button{
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+
+.nav__button .btn{
+    padding: 10px 20px;
+	text-decoration: none;
+	background-color: #e84393;
+	color: white;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    border-radius: 15px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.nav__button .btn:hover{
+    background-color: #6ab04c;
+}
+
+.logo{
+	font-weight: bold;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #222f3e;
+	font-size: 45px;
+}
+
+.logo span{
+	font-weight: bold;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	color:  #d35400;
+	font-size: 45px;
+}
+
+.menu a{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	padding: 10px 25px;
+	font-weight: bold;
+	border-radius: 50px;
+	cursor: pointer;
+	line-height: 50px;
+}
+
+.menu a:first-child{
+	background: #e17055;
+	color: black;
+}
+
+.menu a:last-child{
+	background: #e17055;
+	color: black;
+}
+
+.menu a:hover{
+    background-color: #e17055;
+    color: white;
+    transition: 0.4s;	
+}
+
+.menu a:first-child:hover{
+	background: #e17055;
+	color: white;
+}
+
+.menu a:last-child:hover{
+	background: #e17055;
+	color: white;
+}
+
+.search-container{
+    position: relative;
+    width: 350px;
+	padding: 20px;
+    margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px 10px;
+    border: 3px solid #6F1E51;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+	gap: 10px;
+}
+
+.button-container .btn {
+    padding: 10px 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.reset-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}
+
+.reset-btn:hover {
+    background-color: #e53935;
+}
+
+.container{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: normal;
+	padding: 10px 50px;
+}
+
+.left{
+	flex-basis: 50%;
+	text-align: left;
+}
+
+.right{
+	flex-basis: 50%;
+	text-align: right;
+}
+
+.right img{
+	display: flex;
+	position: absolute;
+	justify-content: center;
+	top: 25%;
+	left: 60%;
+}
+
+.left h1{
+	font-family: "Inria Sans", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 40px;
+	line-height: 60px;
+}
+
+.left h1 span{
+	color: white;
+	background-color: #B53471;
+	font-family: "Inria Sans", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	padding: 5px 10px;
+	border-radius: 10px; 
+}
+
+.left p{
+	color: #1e272e;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	margin: 20px 0px;
+	line-height: 2rem;
+}
+
+.left button{
+	padding: 10px 70px;
+	text-decoration: none;
+	border:none;
+	outline: none;
+	background-color: #f368e0;
+	color: white;
+	font-size: medium;
+	border-radius: 10px;
+	transition: 0.2s;
+    cursor: pointer;
+}
+
+.left button:hover {
+	background-color: #ff9ff3;
+    color: white;
+}
+
+#btn2{
+	padding: 10px 30px;
+	text-decoration: none;
+	border: 2px solid #f368e0;
+	outline: none;
+	background-color: transparent;
+	color: black;
+	font-size: medium;
+	margin-left: 10px;
+	border-radius: 10px;
+	transition: 0.2s;
+    cursor: pointer;
+}
+#btn2:hover {
+	background-color: transparent;
+    color: #f368e0; 
+}
+#btn3{
+	padding: 10px 135px;
+	text-decoration: none;
+	border: none;
+	outline: none;
+	background-color: #22a6b3;
+	color: white;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: large;
+	font-weight: bold;
+	border-radius: 5px;
+	transition: 0.2s;
+    cursor: pointer;
+	display: flex;
+    justify-content: center;
+    margin-top: 10px;
+	margin-bottom: 10px;
+}
+#btn3:hover {
+	background-color: #00d2d3;
+    color: white; 
+}

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio Website </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <span>Port</span>folio
+                </div>
+                <div class="menu">
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Education</a>
+                    <a href="#">Skills</a>
+                    <a href="#">Projects</a>
+                    <a href="#">Contact</a>
+                </div>
+            </nav>
+                <div class="header-container">
+                    <div class="left">
+                        <h1> Hi, I'm<br> <span>Sourya Chowdhury</span></h1>
+                        <p>I'm a Web Developer and UI/UX Designer</p>
+                        <p>I'm dedicated to creating creating visually appealing, user-friendly websites that blend functionality with great design</p>
+                        <button>Hire Me</button>
+                        <button id="btn2">More About Me</button>
+                    </div>
+                    <div class="right">
+                        <img src="images/pic 1.jpg" alt="">
+                    </div>
+                </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/pic 2.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About<span> Me</span></h1>
+                    <p>
+                        I'm a web developer and UI/UX designer with a passion for creating seamless, engaging digital experiences. I specialize in building responsive, user-friendly websites that blend creativity and functionality. My approach combines thoughtful design with efficient coding to ensure that every project not only looks great but also works flawlessly. From crafting intuitive interfaces to developing robust web applications, I aim to create digital solutions that captivate users and drive results. I thrive on turning complex problems into elegant, simple solutions that enhance both user experience and business success.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills"> 
+                        <ul>
+                            <li><span>UI/UX Design</span></li>
+                            <li><span>Web Development</span></li>
+                            <li><span>App Development</span></li>
+                            <li><span>Object Oriented Programming</span></li>
+                            <li><span>Database Management System</span></li>
+                            <li><span>Operating system fundamentals</span></li>
+                            <li><span>Python Programming</span></li>
+                            <li><span>Cloud Security</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022-current</span><br>BCA from MAKAUT</li>
+                            <li><span>2024</span><br>Full Stack Web Dvelopment using PHP & MySQL training at Euphoria GenX</li>
+                            <li><span>2024</span><br>Frontend Web Development Intern at Oasis InfoBytes</li>
+                            <li><span>2024</span><br>Frontend Web Development Intern at Tech Octanet</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="skills">
+        <div class="container">
+            <h2 class="sub-title">Skills</h2>
+            <div class="skills-list">
+                <div>
+                    <i class="ri-code-s-slash-line"></i>
+                    <h3>WEB Design & Development</h3>
+                    <p>Web design and development combine creativity and coding to build visually appealing, functional, and responsive websites for users</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="ri-crop-line"></i>
+                    <h3>UI/UX Design</h3>
+                    <p>UI/UX design crafts intuitive digital experiences, focusing on user needs to enhance navigation, satisfaction, and accessibility in products</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="ri-app-store-line"></i>
+                    <h3>App Design & Development</h3>
+                    <p>App design and development create intuitive, visually appealing mobile apps, blending functionality with seamless user experiences across devices</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="ri-java-line"></i>
+                    <h3>Object Oriented Programming</h3>
+                    <p>OOPS organizes code into reusable objects, enabling efficient problem-solving through abstraction, encapsulation, inheritance, and polymorphism</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="ri-database-2-line"></i>
+                    <h3>Database Management System</h3>
+                    <p>A DBMS stores, organizes, and manages data efficiently, enabling easy access, manipulation, and retrieval for users and applications</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="ri-settings-2-line"></i>
+                    <h3>Operating system fundamentals</h3>
+                    <p>OS fundamentals involve managing hardware and software resources, providing user interfaces, and ensuring efficient system performance and security</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="ri-mini-program-line"></i>
+                    <h3>Python Programming</h3>
+                    <p>Python programming is a versatile, high-level language known for its readability and simplicity, ideal for beginners and advanced developers alike</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="ri-cloud-line"></i>
+                    <h3>Cloud Security</h3>
+                    <p>Cloud security safeguards data and applications using encryption, access controls, and regulatory compliance measures</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h2 class="sub-title">Projects</h2>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/pic 3.jpg">
+                    <div class="layer">
+                        <h4>Spam E-mail Detection</h4>
+                        <p>Spam e-mail detection involves applying algorithms and rules to locate unwanted or unwelcome e-mails which often sent in bulk</p>
+                        <a href="#"><i class="ri-external-link-line"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/pic 4.jpg">
+                    <div class="layer">
+                        <h4>Youtube Desktop Clone</h4>
+                        <p>Welcome to the YouTube desktop clone, offering seamless video streaming, personalized recommendations, and an intuitive user interface</p>
+                        <a href="#"><i class="ri-external-link-line"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/pic 5.jpg">
+                    <div class="layer">
+                        <h4>Temparature Converter</h4>
+                        <p>Convert temperatures easily between Celsius, Fahrenheit, and Kelvin with this simple, accurate, and user-friendly temperature converter</p>
+                        <a href="#"><i class="ri-external-link-line"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h5 class="sub-title">Contact Me</h5>
+                    <p><i class="ri-send-plane-line"></i>sourya1234@gmail.com</p>
+                    <p><i class="ri-phone-line"></i>9876543210</p>
+                    <div class="social-icons">
+                        <a href=""><i class="ri-facebook-line"></i></a>
+                        <a href=""><i class="ri-instagram-line"></i></a>
+                        <a href=""><i class="ri-twitter-line"></i></a>
+                        <a href=""><i class="ri-telegram-2-line"></i></a>
+                        <a href=""><i class="ri-linkedin-box-line"></i></a>
+                        <a href=""><i class="ri-github-line"></i></a>
+
+                    </div>
+                    <a href="" class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="1" placeholder="Your Message"></textarea>
+                        <textarea name="Message" rows="4" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p><i class="ri-copyright-line"></i>Copyright 2024 Sourya</p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
